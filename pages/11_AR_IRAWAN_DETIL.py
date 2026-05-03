@@ -10,8 +10,8 @@ st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 KODE_NIK = "IR166170"
 
-from utils.auto_rotate import run_auto_rotate
-run_auto_rotate()
+#from utils.auto_rotate import run_auto_rotate
+#run_auto_rotate()
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 css_path = os.path.join(BASE_DIR, "assets", "style.css")
