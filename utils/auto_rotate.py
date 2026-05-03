@@ -30,6 +30,9 @@ pages = [
     "25_ARK_TIO_DETIL",
     "26_ARK_WYANDRA",
     "27_ARK_WYANDRA_DETIL",
+    "28_ARK_AJI"
+    "29_ARK_AJI_DETIL"
+    "30_Motivasi"
 ]
 
 
