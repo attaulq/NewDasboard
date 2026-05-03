@@ -13,8 +13,8 @@ conn = sqlite3.connect("database.db", check_same_thread=False)
 KODE_NIK = "AT138550"
 NAMA_AR = "ATTA UL QUDDUS"
 
-from utils.auto_rotate import run_auto_rotate
-run_auto_rotate()
+#from utils.auto_rotate import run_auto_rotate
+#run_auto_rotate()
 
 # =========================
 # LOAD CSS (reuse style.css)
