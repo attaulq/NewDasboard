@@ -8,8 +8,8 @@ import os
 # =========================
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
-from utils.auto_rotate import run_auto_rotate
-run_auto_rotate()
+#from utils.auto_rotate import run_auto_rotate
+#run_auto_rotate()
 
 conn = sqlite3.connect("database.db", check_same_thread=False)
 
