@@ -1,0 +1,171 @@
+/* =========================
+   BACKGROUND UTAMA
+========================= */
+[data-testid="stAppViewContainer"] {
+    background-color: #F4F6F9;
+}
+
+/* FORCE SIDEBAR OVERRIDE */
+[data-testid="stSidebar"] > div {
+    background: linear-gradient(180deg, #0A2A66, #003E80) !important;
+}
+
+/* =========================
+   SIDEBAR (FIX GLOBAL)
+========================= */
+
+/* BACKGROUND */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0A2A66, #003E80) !important;
+}
+
+/* TEXT */
+[data-testid="stSidebar"] * {
+    color: #FFD700 !important;
+}
+
+/* MENU */
+[data-testid="stSidebarNav"] a {
+    color: #FFD700 !important;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+/* FORCE SIDEBAR OVERRIDE */
+[data-testid="stSidebar"] > div {
+    background: linear-gradient(180deg, #0A2A66, #003E80) !important;
+}
+
+/* HOVER */
+[data-testid="stSidebarNav"] a:hover {
+    background-color: #64B5F6 !important;
+    color: #000 !important;
+}
+
+/* ACTIVE */
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+    background-color: #90CAF9 !important;
+    color: #000 !important;
+    border-radius: 10px;
+}
+
+/* TEXT MENU → KUNING */
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a {
+    color: #FFD700 !important; /* kuning */
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+/* HOVER MENU */
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a:hover {
+    background-color: #64B5F6 !important; /* biru muda */
+    color: #000 !important;
+}
+
+/* MENU ACTIVE (YANG DIKLIK) */
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a[aria-current="page"] {
+    background-color: #90CAF9 !important; /* biru muda terang */
+    color: #000 !important;
+    border-radius: 10px;
+}
+
+/* =========================
+   CARD KPI (KREM)
+========================= */
+.card-kpi {
+    background: #FFF8F0;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 10px;
+}
+
+/* TITLE */
+.card-title {
+    font-size: 13px;
+    color: #777;
+}
+
+/* VALUE */
+.card-value {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* GAP NEGATIF (HIJAU) */
+.gap-green {
+    background: #E8F5E9;
+    color: #00A859;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+/* GAP POSITIF (MERAH) */
+.gap-red {
+    background: #FDECEC;
+    color: #E53935;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* =========================
+   METRIC STYLE (BIAR RAPI)
+========================= */
+[data-testid="stMetric"] {
+    background: #FFF8F0;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* =========================
+   PROGRESS BAR
+========================= */
+[data-testid="stProgressBar"] > div {
+    background-color: #00A859 !important;
+}
+
+/* =========================
+   SPACING FIX GLOBAL
+========================= */
+.block-container {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* SECTION JARAK */
+.section-title {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+/* KPI CARD HEIGHT SAMA */
+.card-kpi {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* PROFILE CARD RAPAT */
+.profile-card {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* PROGRESS SUMMARY RAPI */
+.progress-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
