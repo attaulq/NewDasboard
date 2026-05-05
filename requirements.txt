@@ -1,5 +1,8 @@
+python-dotenv
 streamlit
 pandas
+gspread
+pdfplumber
+openpyxl
 plotly
-supabase
-python-dotenv
+streamlit-autorefresh
